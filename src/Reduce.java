@@ -1,8 +1,7 @@
 import java.sql.SQLOutput;
 
 public class Reduce {
-    public static void main(String[] args) {
-        int n=100;
+    public static int main(int n) {
         int count=0;
         while(n != 0){
             if(n%2==0){
@@ -13,6 +12,6 @@ public class Reduce {
             }
             count+=1;
         }
-        System.out.println(count);
+        return count;
     }
 }
